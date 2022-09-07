@@ -8,11 +8,13 @@ public class ChineseDynasties {
         int warriorMin = 9;
         int bowmanMin = 35;
         int riderMin = 12;
+        int total = 860;
+        double number = 1.5;
         int quantityLi;
         double quantityMin;
 
-        quantityLi = (warriorLi + bowmanLi + riderLi) * 860;
-        quantityMin = (warriorMin + bowmanMin + riderMin) * (860 * 1.5);
+        quantityLi = (warriorLi + bowmanLi + riderLi) * total;
+        quantityMin = (warriorMin + bowmanMin + riderMin) * (total * number);
         System.out.println("Total attack LI:" + quantityLi);
         System.out.println("Total attack MIN:" + quantityMin);
     }
