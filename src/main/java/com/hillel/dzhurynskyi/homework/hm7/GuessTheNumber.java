@@ -29,10 +29,8 @@ public class GuessTheNumber {
             } else if (i < 4) {
                 System.out.println("Try again!");
             }
-
         }
         System.out.println("U lose!");
-
     }
 }
 
