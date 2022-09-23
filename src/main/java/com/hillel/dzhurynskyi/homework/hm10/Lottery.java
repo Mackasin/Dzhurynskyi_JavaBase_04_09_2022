@@ -57,6 +57,4 @@ public class Lottery {
         print(second);
         matches(first, second);
     }
-
-
 }
