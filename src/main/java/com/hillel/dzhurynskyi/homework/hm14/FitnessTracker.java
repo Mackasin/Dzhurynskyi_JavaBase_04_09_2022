@@ -27,7 +27,15 @@ public class FitnessTracker {
     }
 
     public static void printAccountInfo(FitnessTracker fitnessTracker) {
-        System.out.println("Name: " + fitnessTracker.getName() + "\n" + "Surname: " + fitnessTracker.getSurname() + "\n" + "Birthday: " + fitnessTracker.getDay() + "." + fitnessTracker.getMonth() + "." + fitnessTracker.getYear() + "\n" + "Email: " + fitnessTracker.getEmail() + "\n" + "Phone: " + fitnessTracker.getPhoneNumber() + "\n" + "Weight: " + fitnessTracker.getWeight() + "\n" + "Pressure: " + fitnessTracker.getPressure() + "\n" + "Steps per day: " + fitnessTracker.getStepsPerDay() + "\n" + "Age: " + fitnessTracker.getAge() + "\n");
+        System.out.println("Name: " + fitnessTracker.getName() + "\n" +
+                "Surname: " + fitnessTracker.getSurname() + "\n" +
+                "Birthday: " + fitnessTracker.getDay() + "." + fitnessTracker.getMonth() + "." + fitnessTracker.getYear() + "\n" +
+                "Email: " + fitnessTracker.getEmail() + "\n" +
+                "Phone: " + fitnessTracker.getPhoneNumber() + "\n" +
+                "Weight: " + fitnessTracker.getWeight() + "\n" +
+                "Pressure: " + fitnessTracker.getPressure() + "\n" +
+                "Steps per day: " + fitnessTracker.getStepsPerDay() + "\n" +
+                "Age: " + fitnessTracker.getAge() + "\n");
     }
 
     public int getAge() {
