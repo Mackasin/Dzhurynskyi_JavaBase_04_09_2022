@@ -1,17 +1,17 @@
 package com.hillel.dzhurynskyi.homework.hm14;
 
 public class FitnessTracker {
-    final String name;
-    final int day;
-    final String month;
-    final int year;
-    final String email;
-    final String phoneNumber;
-    String surname;
-    int age;
-    int weight;
-    int pressure;
-    int stepsPerDay;
+   private final String name;
+    private final int day;
+    private final String month;
+    private final int year;
+    private final String email;
+    private final String phoneNumber;
+    private String surname;
+     int age;
+    private int weight;
+    private int pressure;
+    private int stepsPerDay;
 
     public FitnessTracker(String name, String surname, int day, String month, int year, String email, String phoneNumber, int weight, int pressure, int stepsPerDay) {
         this.name = name;
