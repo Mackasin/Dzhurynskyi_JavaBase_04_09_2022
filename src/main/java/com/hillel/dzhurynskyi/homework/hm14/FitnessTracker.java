@@ -8,7 +8,6 @@ public class FitnessTracker {
     private final String email;
     private final String phoneNumber;
     private String surname;
-     int age;
     private int weight;
     private int pressure;
     private int stepsPerDay;
@@ -39,8 +38,7 @@ public class FitnessTracker {
     }
 
     public int getAge() {
-        age = 2020 - year;
-        return age;
+        return 2020 - year;
     }
 
     public String getName() {
