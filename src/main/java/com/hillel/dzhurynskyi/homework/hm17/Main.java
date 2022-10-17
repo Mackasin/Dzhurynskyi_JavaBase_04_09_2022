@@ -12,12 +12,11 @@ public class Main {
     static void run() {
         Scanner scanner = new Scanner(System.in);
         DrinksMachine[] drinksMachines = DrinksMachine.values();
-        DrinksMachine drinksMachine = null;
         int totalPrice = 0;
         while (true) {
+            DrinksMachine drinksMachine = null;
             System.out.println("Будь ласка введіть свій напій:" + Arrays.toString(drinksMachines) + " або напишіть NO, щоб завершити процесс");
             while (true) {
-
                 String userValue = scanner.nextLine().toUpperCase();
                 if (userValue.equals("NO")) {
                     System.out.println("Загальна вартість: " + totalPrice);
@@ -63,5 +62,6 @@ public class Main {
                 }
             }
         }
+
     }
 }
