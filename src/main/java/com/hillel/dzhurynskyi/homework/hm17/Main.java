@@ -36,29 +36,29 @@ public class Main {
             }
             switch (drinksMachine) {
                 case COFFEE -> {
-                    System.out.println("Ваш " + DrinksMachine.COFFEE.getTitle() + " готовий, його вартість " + Drinks.COFFEE);
-                    totalPrice += Drinks.COFFEE;
+                    System.out.println("Ваш " + DrinksMachine.COFFEE.getTitle() + " готовий, його вартість " + Drinks.getCOFFEE());
+                    totalPrice += Drinks.getCOFFEE();
                 }
                 case TEE -> {
-                    System.out.println("Ваш " + DrinksMachine.TEE.getTitle() + " готовий, його вартість " + Drinks.TEE);
-                    totalPrice += Drinks.TEE;
+                    System.out.println("Ваш " + DrinksMachine.TEE.getTitle() + " готовий, його вартість " + Drinks.getTEE());
+                    totalPrice += Drinks.getTEE();
                 }
                 case LEMONADE -> {
-                    System.out.println("Ваш " + DrinksMachine.LEMONADE.getTitle() + " готовий, його вартість " + Drinks.LEMONADE);
-                    totalPrice += Drinks.LEMONADE;
+                    System.out.println("Ваш " + DrinksMachine.LEMONADE.getTitle() + " готовий, його вартість " + Drinks.getLEMONADE());
+                    totalPrice += Drinks.getLEMONADE();
                 }
                 case MOJITO -> {
-                    System.out.println("Ваше " + DrinksMachine.MOJITO.getTitle() + " готове, його вартість " + Drinks.MOJITO);
-                    totalPrice += Drinks.MOJITO;
+                    System.out.println("Ваше " + DrinksMachine.MOJITO.getTitle() + " готове, його вартість " + Drinks.getMOJITO());
+                    totalPrice += Drinks.getMOJITO();
                 }
                 case MINERAL_WATER -> {
-                    System.out.println("Ваша " + DrinksMachine.MINERAL_WATER.getTitle() + " готова, її вартість " + Drinks.MINERAL_WATER);
-                    totalPrice += Drinks.MINERAL_WATER;
+                    System.out.println("Ваша " + DrinksMachine.MINERAL_WATER.getTitle() + " готова, її вартість " + Drinks.getMineralWater());
+                    totalPrice += Drinks.getMineralWater();
                 }
 
                 case COCA_COLA -> {
-                    System.out.println("Ваша " + DrinksMachine.COCA_COLA.getTitle() + " готова, її вартість " + Drinks.COCA_COLA);
-                    totalPrice += Drinks.COCA_COLA;
+                    System.out.println("Ваша " + DrinksMachine.COCA_COLA.getTitle() + " готова, її вартість " + Drinks.getCocaCola());
+                    totalPrice += Drinks.getCocaCola();
                 }
             }
         }
